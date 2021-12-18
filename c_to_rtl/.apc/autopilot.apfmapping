@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="eq.c" path="C:\Users\rajath\Downloads\esa\C_code\eq.c"/>
+    <originFiles name="eq.h" path="C:\Users\rajath\Downloads\esa\C_code\eq.h"/>
+  </source>
+  <testbench>
+    <originFiles name="test.c" path="C:\Users\rajath\Downloads\esa\C_code\test.c"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

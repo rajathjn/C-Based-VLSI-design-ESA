@@ -1,0 +1,27 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling(apcc) ../../../../C_code/test.c in debug mode
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'God' on host 'rajath-pc' (Windows NT_amd64 version 6.2) on Thu Dec 16 16:07:42 +0530 2021
+INFO: [HLS 200-10] In directory 'C:/Users/rajath/Downloads/esa/c_to_rtl/sol/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Compiling(apcc) ../../../../C_code/eq.c in debug mode
+INFO: [HLS 200-10] Running 'D:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/apcc.exe'
+INFO: [HLS 200-10] For user 'God' on host 'rajath-pc' (Windows NT_amd64 version 6.2) on Thu Dec 16 16:07:48 +0530 2021
+INFO: [HLS 200-10] In directory 'C:/Users/rajath/Downloads/esa/c_to_rtl/sol/csim/build'
+INFO: [APCC 202-3] Tmp directory is apcc_db
+INFO: [APCC 202-1] APCC is done.
+   Generating csim.exe
+  10+20/10=12.000000 
+  20+20/10=22.000000 
+  20+30/10=23.000000 
+  30+30/10=33.000000 
+  30+40/10=34.000000 
+  40+40/10=44.000000 
+  40+50/10=45.000000 
+  50+50/10=55.000000 
+  50+60/10=56.000000 
+----------Pass!------------
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

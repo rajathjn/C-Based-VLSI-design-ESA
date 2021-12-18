@@ -1,0 +1,77 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Dec 16 15:15:54 2021
+# Process ID: 21884
+# Current directory: C:/Users/rajath/Downloads/esa/c_to_rtl/sol/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/eq/xsim_script.tcl}
+# Log file: C:/Users/rajath/Downloads/esa/c_to_rtl/sol/sim/verilog/xsim.log
+# Journal file: C:/Users/rajath/Downloads/esa/c_to_rtl/sol/sim/verilog\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/eq/xsim_script.tcl
+# xsim {eq} -autoloadwcfg -tclbatch {eq.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source eq.tcl
+## log_wave -r /
+WARNING: [Simtcl 6-197] One or more HDL objects could not be logged because of object type or size limitations.  To see details please rerun the command with -verbose (-v).
+## set designtopgroup [add_wave_group "Design Top Signals"]
+## set coutputgroup [add_wave_group "C Outputs" -into $designtopgroup]
+## set return_group [add_wave_group return(wire) -into $coutputgroup]
+## add_wave /apatb_eq_top/AESL_inst_eq/ap_return -into $return_group -radix hex
+## set cinputgroup [add_wave_group "C Inputs" -into $designtopgroup]
+## set b_group [add_wave_group b(wire) -into $cinputgroup]
+## add_wave /apatb_eq_top/AESL_inst_eq/b -into $b_group -radix hex
+## set a_group [add_wave_group a(wire) -into $cinputgroup]
+## add_wave /apatb_eq_top/AESL_inst_eq/a -into $a_group -radix hex
+## set blocksiggroup [add_wave_group "Block-level IO Handshake" -into $designtopgroup]
+## add_wave /apatb_eq_top/AESL_inst_eq/ap_start -into $blocksiggroup
+## add_wave /apatb_eq_top/AESL_inst_eq/ap_done -into $blocksiggroup
+## add_wave /apatb_eq_top/AESL_inst_eq/ap_idle -into $blocksiggroup
+## add_wave /apatb_eq_top/AESL_inst_eq/ap_ready -into $blocksiggroup
+## set resetgroup [add_wave_group "Reset" -into $designtopgroup]
+## add_wave /apatb_eq_top/AESL_inst_eq/ap_rst -into $resetgroup
+## set clockgroup [add_wave_group "Clock" -into $designtopgroup]
+## add_wave /apatb_eq_top/AESL_inst_eq/ap_clk -into $clockgroup
+## set testbenchgroup [add_wave_group "Test Bench Signals"]
+## set tbinternalsiggroup [add_wave_group "Internal Signals" -into $testbenchgroup]
+## set tb_simstatus_group [add_wave_group "Simulation Status" -into $tbinternalsiggroup]
+## set tb_portdepth_group [add_wave_group "Port Depth" -into $tbinternalsiggroup]
+## add_wave /apatb_eq_top/AUTOTB_TRANSACTION_NUM -into $tb_simstatus_group -radix hex
+## add_wave /apatb_eq_top/ready_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_eq_top/done_cnt -into $tb_simstatus_group -radix hex
+## add_wave /apatb_eq_top/LENGTH_a -into $tb_portdepth_group -radix hex
+## add_wave /apatb_eq_top/LENGTH_b -into $tb_portdepth_group -radix hex
+## add_wave /apatb_eq_top/LENGTH_ap_return -into $tb_portdepth_group -radix hex
+## set tbcoutputgroup [add_wave_group "C Outputs" -into $testbenchgroup]
+## set tb_return_group [add_wave_group return(wire) -into $tbcoutputgroup]
+## add_wave /apatb_eq_top/ap_return -into $tb_return_group -radix hex
+## set tbcinputgroup [add_wave_group "C Inputs" -into $testbenchgroup]
+## set tb_b_group [add_wave_group b(wire) -into $tbcinputgroup]
+## add_wave /apatb_eq_top/b -into $tb_b_group -radix hex
+## set tb_a_group [add_wave_group a(wire) -into $tbcinputgroup]
+## add_wave /apatb_eq_top/a -into $tb_a_group -radix hex
+## save_wave_config eq.wcfg
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 10 [0.00%] @ "125000"
+// RTL Simulation : 1 / 10 [100.00%] @ "155000"
+// RTL Simulation : 2 / 10 [100.00%] @ "175000"
+// RTL Simulation : 3 / 10 [100.00%] @ "195000"
+// RTL Simulation : 4 / 10 [100.00%] @ "215000"
+// RTL Simulation : 5 / 10 [100.00%] @ "235000"
+// RTL Simulation : 6 / 10 [100.00%] @ "255000"
+// RTL Simulation : 7 / 10 [100.00%] @ "275000"
+// RTL Simulation : 8 / 10 [100.00%] @ "295000"
+// RTL Simulation : 9 / 10 [100.00%] @ "315000"
+// RTL Simulation : 10 / 10 [100.00%] @ "335000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 375 ns : File "C:/Users/rajath/Downloads/esa/c_to_rtl/sol/sim/verilog/eq.autotb.v" Line 320
+## quit
+INFO: [Common 17-206] Exiting xsim at Thu Dec 16 15:16:20 2021...
